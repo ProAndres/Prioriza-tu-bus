@@ -19,7 +19,9 @@
     margin: 0;
 }
 body{
-
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 header{
@@ -43,6 +45,11 @@ main{
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     grid-gap: 20%;
-    padding: 150px 20px 20px 20px;
-    max-width: 360px;
+    padding: 150px 20px;
+    max-width: 390px;
+}
+
+.subtitulos{
+    font-size: large;
+    font-weight: 100;
 }
