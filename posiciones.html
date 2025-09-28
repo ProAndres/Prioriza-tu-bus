@@ -1,13 +1,22 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fila de Posiciones</title>
+    <link rel="stylesheet" href="./styles/Styles__Main.css">
+</head>
+<body>
+    <header>
     <nav class="nav__prioriza">
-        <a href="./priorizar.html"><button class="priorizar__bus">
-            <h1 class="titulo">Prioriza tu bus</h1>
+        <a href="./priorizar.html" class="link__nav"><button class="boton__header" id="priorizar__bus">
+            <h1 class="titulo__boton">Prioriza tu bus</h1>
         </button></a>
-        <a href="./posiciones.html"><button class="tabla__posiciones">
-            <h1>Posiciones de buses</h1>
+        <a href="./posiciones.html" class="link__nav"><button class="boton__header" id="tabla__posiciones">
+            <h1 class="titulo__boton">Posiciones de buses</h1>
         </button></a>
-        <a href="./index.html"><button class="volver__menu">
-            <h1>Menu Principal</h1>
+        <a href="./index.html" class="link__nav"><button class="boton__header" id="volver__menu">
+            <h1 class="titulo__boton">Menu Principal</h1>
         </button></a>
     </nav>
 </header>
@@ -16,7 +25,7 @@
         <h1>Buses priorizados</h1>
         <p>Lista de buses priorizados con sus aproximados horarios de salida (requisito para entrar a esta fila tener mas de  100 priorizados)</p>
     </div>
-    <div>
+    <div class="tipos__bus">
         <div>
             <h3>TransMilenio<input type="checkbox"></h3>
         </div>
@@ -81,3 +90,9 @@
         </li>
     </ol>
 </main>
+</body>
+</html>
+
+
+
+
