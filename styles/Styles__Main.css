@@ -1,5 +1,6 @@
 @import 'Styles__Priorizar.css';
 @import 'Styles__Posiciones.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 :root {
     --Header-Color: #c40606;
@@ -14,6 +15,7 @@
     --Naranja: rgb(255, 166, 0);
     --Rosado: rgb(231, 170, 255);
     --Azul-Oscuro: rgb(0, 3, 180);
+    --Botones: rgba(214, 18, 18, 0.233);
 }
 
 * {
@@ -21,7 +23,8 @@
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: var(--Fondo-Color);
     width: 100vw;
     max-width: 100vw;
@@ -29,9 +32,10 @@ body{
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
-    font-style: normal; 
+    font-style: normal;
 }
-header{
+
+header {
     background-color: var(--Header-Color);
     display: flex;
     justify-content: center;
@@ -46,68 +50,89 @@ header{
     height: 5rem;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column;
     margin-top: 5rem;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.nav__prioriza{
-    background-color: var(--Header-Color);
+.nav__header {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    width: 100%;
-    height: 5rem;
 }
 
-.secciones{
+.link__nav {
+    
+}
+
+.titulos__header {
+    width: 220px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bi-arrow-left {
+    font-size: xx-large;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 50px;
+}
+
+.secciones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    grid-gap: 20%;
-    padding: 150px 20px;
+    grid-gap: 12%;
+    padding: 50px 5px;
     max-width: 390px;
 }
 
-.subtitulos{
-    font-size: large;
-    font-weight: 500;
+.seccion__menu {
+    display: flex;
+    text-align: center;
 }
 
-.boton__header{
+.subtitulos {
+    font-size: large;
+    font-weight: 500;
+    color: black;
+}
+
+.imagen__menu {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
+
+.boton__header {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.titulo__boton{
-    font-size: large; 
+.titulo__boton {
+    font-size: large;
     font-weight: 500;
 }
 
-.tipos__bus{
+.tipos__bus {
     display: flex;
     padding: 20px;
     gap: 25px;
 }
 
-.tipo__bus{
+.tipo__bus {
     font-weight: 500;
 }
 
-.item__bus{
+.item__bus {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,67 +144,87 @@ a{
     text-align: center;
 }
 
-.azul{
+.azul {
     color: white;
     background-color: var(--Azul);
     padding: 5px;
     border-radius: 10px;
 }
-.rojo{
+
+.rojo {
     color: white;
     background-color: var(--Rojo);
     padding: 5px;
     border-radius: 10px;
 }
-.dorado{
+
+.dorado {
     color: white;
     background-color: var(--Dorado);
     padding: 5px;
     border-radius: 10px;
 }
-.verde{
+
+.verde {
     color: white;
     background-color: var(--Verde);
     padding: 5px;
     border-radius: 10px;
 }
-.morado{
+
+.morado {
     color: white;
     background-color: var(--Morado);
     padding: 5px;
     border-radius: 10px;
 }
-.aguamarina{
+
+.aguamarina {
     color: white;
     background-color: var(--Aguamarina);
     padding: 5px;
     border-radius: 10px;
 }
-.azul__claro{
+
+.azul__claro {
     color: white;
     background-color: var(--Azul-Claro);
     padding: 5px;
     border-radius: 10px;
 }
-.azul__oscuro{
+
+.azul__oscuro {
     color: white;
     background-color: var(--Azul-Oscuro);
     padding: 5px;
     border-radius: 10px;
 }
-.rosado{
+
+.rosado {
     color: white;
     background-color: var(--Rosado);
     padding: 5px;
     border-radius: 10px;
 }
-.naranja{
+
+.naranja {
     color: white;
     background-color: var(--Naranja);
     padding: 5px;
     border-radius: 10px;
 }
-.nombre__bus{
+
+.nombre__bus {
     font-weight: 500;
 }
 
+.boton__prioriza {
+    background-color: var(--Botones);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton__prioriza:hover {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1px);
+}
