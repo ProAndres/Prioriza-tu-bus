@@ -18,72 +18,86 @@
     </nav>
 </header>
 <main>
-    <div>
-        <h1>Buses priorizados</h1>
-        <p>Lista de buses priorizados con sus aproximados horarios de salida (requisito para entrar a esta fila tener mas de  100 priorizados)</p>
-    </div>
     <div class="tipos__bus">
-        <div>
-            <h3>TransMilenio<input type="checkbox"></h3>
+        <div class="tipo__check">
+            <h3 class="tipo__bus">TransMilenio</h3>
+            <input type="checkbox">
         </div>
-        <div>
-            <h3>TronsMiZonal<input type="checkbox"></h3>
+        <div class="tipo__check">
+            <h3 class="tipo__bus">TronsMiZonal</h3>
+            <input type="checkbox">
         </div>
     </div>
-    <div class="buscador">
-        <label for=""></label>
-        <input type="text" placeholder="Busca tu bus">
+    <div class="buscador__boton">
+        <input type="search" placeholder="Busca tu bus..." class="buscador">
+        <button class="boton__buscar"><i class="bi bi-search"></i></button>
     </div>
     <ol class="lista__priorizados">
-        <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+        <li class="item__nombres">
+            <h5 class="titulo__posicion">Posicion</h5>
+            <h5 class="titulo__bus">Bus</h5>
+            <h5 class="titulo__nombre">Nombre</h5>
+            <h5 class="titulo__salida">Hora de Salida</h5>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">1.</h1>
+            <h1 class="azul__priorizado">TC6</h1>
+            <h4 class="nombre__bus">San Pablo Jericó</h4>
+            <p class="hora__priorizados"><strong>10:30 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">2.</h1>
+            <h1 class="rojo__priorizado">F409</h1>
+            <h4 class="nombre__bus">Estación Banderas - Tierra Buena</h4>
+            <p class="hora__priorizados"><strong>10:31 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">3.</h1>
+            <h1 class="verde__priorizado">B26</h1>
+            <h4 class="nombre__bus">Portal Américas - Alcalá</h4>
+            <p class="hora__priorizados"><strong>10:32 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">4.</h1>
+            <h1 class="azul__priorizado">K300</h1>
+            <h4 class="nombre__bus">Puente Grande</h4>
+            <p class="hora__priorizados"><strong>10:33 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">5.</h1>
+            <h1 class="dorado__priorizado">K16</h1>
+            <h4 class="nombre__bus">Terminal - Portal ElDorado</h4>
+            <p class="hora__priorizados"><strong>10:34 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">6.</h1>
+            <h1 class="azul__priorizado">B903</h1>
+            <h4 class="nombre__bus">Verbenal</h4>
+            <p class="hora__priorizados"><strong>10:35 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">7.</h1>
+            <h1 class="rojo__priorizado">F28</h1>
+            <h4 class="nombre__bus">Portal Norte - Portal Américas</h4>
+            <p class="hora__priorizados"><strong>10:36 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">8.</h1>
+            <h1 class="azul__priorizado">K315</h1>
+            <h4 class="nombre__bus">Puente Grande</h4>
+            <p class="hora__priorizados"><strong>10:37 AM</strong></p>
         </li>
         <li class="item__priorizados">
-            <h1 class="azul">12</h1>
-            <h4>Porciúncula - Estación Chile</h4>
-            <p>Priorizado para las 12:30</p>
+            <h1 class="numero__posicion">9.</h1>
+            <h1 class="aguamarina__priorizado">L10</h1>
+            <h4 class="nombre__bus">Portal Eldorado - Portal 20 de Julio</h4>
+            <p class="hora__priorizados"><strong>10:38 AM</strong></p>
+        </li>
+        <li class="item__priorizados">
+            <h1 class="numero__posicion__dos">10.</h1>
+            <h1 class="rojo__priorizado">F402</h1>
+            <h4 class="nombre__bus">Estación Banderas - Palmitas</h4>
+            <p class="hora__priorizados"><strong>10:39 AM</strong></p>
         </li>
     </ol>
 </main>

@@ -18,21 +18,25 @@
     </nav>
 </header>
 <main>
-    <form action="">
-        <fieldset>
-            <legend>Ingrse sus datos para resolver dudas o reportar problemas</legend>
-            <label for="">Ingrese su nombre completo</label>
-            <input type="text" placeholder="Nombre...">
-
-            <label for="">Ingrese su documento de identidad</label>
-            <input type="text" placeholder="Documento...">
-
-            <label for="">Ingrese su correo electronico</label>
-            <input type="text" placeholder="Correo...">
-
-            <label for="">Ingrese su razon de contacto</label>
-            <input type="text" placeholder="...">
-        </fieldset>
+    <form action="" class="formulario">
+            <p class="subtitulos">Ingrese sus datos para resolver dudas o reportar problemas</p>
+            <div class="campo">
+                <label for="">Nombre completo:</label>
+                <input type="text" placeholder="Nombre..." required class="input__form">
+            </div>
+            <div class="campo">
+                <label for="">Documento:</label>
+                <input type="number" placeholder="Documento..." required class="input__form">
+            </div>
+            <div class="campo">
+                <label for="">Correo electronico:</label>
+                <input type="email" placeholder="Correo..." required class="input__form">
+            </div>
+            <div class="campo">
+            <label for="">Razon de contacto:</label>
+            <textarea name="" id="" placeholder="Razon de contacto..." required class="input__area"></textarea>
+            </div>
+            <button class="enviar__form">Enviar</button>
     </form>
 </main>
 </body>

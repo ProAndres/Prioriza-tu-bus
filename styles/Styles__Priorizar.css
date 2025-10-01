@@ -1,2 +1,144 @@
+.lista__priorizados{
+    width: 390px;
+}
 
+.item__nombres{
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    gap: 20px;
+    width: 390px;
+}
+.titulo__posicion{
+    position: absolute;
+    transform: translateX(-50px);
+    padding: 5px;
+}
+.titulo__bus{
+    position: absolute;
+    transform: translateX(25px);
+    padding: 5px;
+}
+.titulo__nombre{
+    position: absolute;
+    transform: translateX(145px);
+    padding: 5px;
+}
+.titulo__salida{
+    position: absolute;
+    transform: translateX(240px);
+    padding: 5px;
+}
+.item__priorizados{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    gap: 5px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 50px;
+}
+.hora__priorizados{
+    text-wrap: nowrap;
+}
+.numero__posicion{
+    position: absolute;
+    transform: translateX(-50px);
+}
+.numero__posicion__dos{
+    position: absolute;
+    transform: translateX(-67px);
+}
+.azul__priorizado {
+    color: white;
+    background-color: var(--Azul);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.rojo__priorizado {
+    color: white;
+    background-color: var(--Rojo);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.dorado__priorizado {
+    color: white;
+    background-color: var(--Dorado);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.verde__priorizado {
+    color: white;
+    background-color: var(--Verde);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.morado__priorizado {
+    color: white;
+    background-color: var(--Morado);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.aguamarina__priorizado {
+    color: white;
+    background-color: var(--Aguamarina);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.azul__claro__priorizado {
+    color: white;
+    background-color: var(--Azul-Claro);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.azul__oscuro__priorizado {
+    color: white;
+    background-color: var(--Azul-Oscuro);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.rosado__priorizado {
+    color: white;
+    background-color: var(--Rosado);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+
+.naranja__priorizado {
+    color: white;
+    background-color: var(--Naranja);
+    padding: 5px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+}
+.boton__prioriza {
+    background-color: var(--Botones);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.boton__prioriza:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1px);
+}
 
