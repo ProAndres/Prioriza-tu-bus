@@ -4,8 +4,8 @@
     gap: 5px;
     margin-top: 20px;
     text-align: center;
-    width: 370px;
-    height: 260px;
+    width: 340px;
+    height: 280px;
     border: 1px solid;
     border-radius: 5px;
     background-color: var(--Fondo-Color);
@@ -30,16 +30,17 @@
 
 .hora {
     position: absolute;
-    margin-left: 237px;
-    margin-top: 235px;
+    margin-left: 188px;
+    margin-top: 255px;
     border: 1px solid;
     padding: 2px;
     border-radius: 5px;
     background-color: var(--Fondo-Color);
+    text-wrap: nowrap;
 }
 .abajo__alertas{
     background-color: var(--Secciones-Color);
-    height: 197px;
+    height: 220px;
     padding: 20px;
     border-radius: 5px;
 }

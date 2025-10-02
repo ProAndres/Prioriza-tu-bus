@@ -1,5 +1,5 @@
 .lista__priorizados{
-    width: 370px;
+    width: 350px;
 }
 
 .item__nombres{
@@ -7,7 +7,7 @@
     margin-left: 20px;
     padding: 20px;
     gap: 20px;
-    width: 370px;
+    width: 350px;
 }
 .titulo__posicion{
     position: absolute;
@@ -16,17 +16,17 @@
 }
 .titulo__bus{
     position: absolute;
-    transform: translateX(25px);
+    transform: translateX(30px);
     padding: 5px;
 }
 .titulo__nombre{
     position: absolute;
-    transform: translateX(145px);
+    transform: translateX(130px);
     padding: 5px;
 }
 .titulo__salida{
     position: absolute;
-    transform: translateX(240px);
+    transform: translateX(205px);
     padding: 5px;
 }
 .item__priorizados{
