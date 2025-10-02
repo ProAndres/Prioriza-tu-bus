@@ -5,7 +5,7 @@
     margin-top: 20px;
     text-align: center;
     width: 340px;
-    height: 280px;
+    height: 320px;
     border: 1px solid;
     border-radius: 5px;
     background-color: var(--Fondo-Color);
@@ -30,8 +30,8 @@
 
 .hora {
     position: absolute;
-    margin-left: 188px;
-    margin-top: 255px;
+    margin-left: 11.7em;
+    margin-top: 18.45rem;
     border: 1px solid;
     padding: 2px;
     border-radius: 5px;
@@ -40,7 +40,7 @@
 }
 .abajo__alertas{
     background-color: var(--Secciones-Color);
-    height: 220px;
+    height: 258px;
     padding: 20px;
     border-radius: 5px;
 }
